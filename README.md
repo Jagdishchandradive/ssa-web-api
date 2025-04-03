@@ -18,16 +18,5 @@ Backend: Java 17, Spring Boot 3.x
 Logging: SLF4J with Logback
 
 Build Tool: Maven
-API Endpoints
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/ssa-web-api/find/{ssn}
 
 Returns the state name based on SSN
