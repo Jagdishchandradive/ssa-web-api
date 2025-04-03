@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SSAWebController {
 	private static final Logger logger = LoggerFactory.getLogger(SSAWebController.class);
 	
+	
+	
 	@GetMapping("/find/{ssn}")
 	public ResponseEntity<String>getSsnByName(@PathVariable Integer ssn){
 	
